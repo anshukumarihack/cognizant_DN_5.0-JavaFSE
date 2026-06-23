@@ -10,3 +10,7 @@ WEEK-1/TASK-2: FactoryMethodExample
 
 WEEK-1/TASK-3: E-commerce Platform Search Function
 <img width="757" height="202" alt="image" src="https://github.com/user-attachments/assets/7827abaf-67a7-4755-9d62-de2f2d680169" />
+
+
+WEEK-1/TASK-4: E-commerce Platform Search Function
+<img width="1052" height="135" alt="image" src="https://github.com/user-attachments/assets/d526c52a-d815-4bfa-a25a-04919f9d3c22" />
