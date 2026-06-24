@@ -15,9 +15,7 @@ To set up JUnit in a Java project using Maven and create a basic unit test to ve
 
 ---
 
-## Project Structure
-
-```text
+### Project Structure
 JUnitDemo
 │
 ├── pom.xml
@@ -25,9 +23,15 @@ JUnitDemo
 └── src
     ├── main
     │   └── java
+    │       └── com
+    │           └── example
+    │               └── Calculator.java
     │
     └── test
         └── java
+            └── com
+                └── example
+                    └── CalculatorTest.java
 ```
 
 ---
