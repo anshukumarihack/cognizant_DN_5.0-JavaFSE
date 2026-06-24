@@ -1,0 +1,19 @@
+INSERT INTO SavingsAccounts VALUES (101,'Ravi',10000);
+INSERT INTO SavingsAccounts VALUES (102,'Priya',15000);
+INSERT INTO SavingsAccounts VALUES (103,'Kumar',20000);
+
+COMMIT;
+
+
+
+INSERT INTO Employees VALUES (1,'Amit','IT',50000);
+INSERT INTO Employees VALUES (2,'Sneha','IT',60000);
+INSERT INTO Employees VALUES (3,'Raj','HR',45000);
+
+COMMIT;
+
+
+INSERT INTO Accounts VALUES (201,'Ravi',10000);
+INSERT INTO Accounts VALUES (202,'Priya',5000);
+
+COMMIT;

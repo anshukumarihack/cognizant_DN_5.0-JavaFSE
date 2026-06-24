@@ -1,0 +1,6 @@
+SET SERVEROUTPUT ON;
+
+BEGIN
+    TransferFunds(201,202,2000);
+END;
+/
