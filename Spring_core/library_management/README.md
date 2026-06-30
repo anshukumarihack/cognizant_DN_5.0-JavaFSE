@@ -125,15 +125,15 @@ Book Repository: Fetching book details...
 ---
 
 ## Screenshots
-```
+
 
 <img width="767" height="203" alt="image" src="https://github.com/user-attachments/assets/b9a7c29d-32e1-4bfb-8a3f-eef9d6b2f767" />
 
 
 <img width="886" height="96" alt="image" src="https://github.com/user-attachments/assets/1fbcbea1-756d-460b-abfe-00128eb81769" />
 
+---
 
-```
 
 ## Concepts Covered
 
