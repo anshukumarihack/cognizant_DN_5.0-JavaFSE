@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="src/main/java"/>
+    <classpathentry kind="lib" path="target/dependency/spring-context-6.1.8.jar"/>
+    <classpathentry kind="lib" path="target/dependency/spring-core-6.1.8.jar"/>
+    <classpathentry kind="lib" path="target/dependency/spring-beans-6.1.8.jar"/>
+    <classpathentry kind="lib" path="target/dependency/spring-aop-6.1.8.jar"/>
+    <classpathentry kind="lib" path="target/dependency/spring-expression-6.1.8.jar"/>
+    <classpathentry kind="lib" path="target/dependency/spring-jcl-6.1.8.jar"/>
+    <classpathentry kind="lib" path="target/dependency/micrometer-commons-1.12.6.jar"/>
+    <classpathentry kind="lib" path="target/dependency/micrometer-observation-1.12.6.jar"/>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="output" path="target/classes"/>
+</classpath>
