@@ -3,7 +3,7 @@ package com.library;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.library.service.BookService;
+// Use fully-qualified name to avoid import resolution issues in some classpath setups
 
 public class App {
 
@@ -12,8 +12,8 @@ public class App {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        BookService bookService =
-                context.getBean("bookService", BookService.class);
+        com.library.service.BookService bookService =
+            context.getBean("bookService", com.library.service.BookService.class);
 
         bookService.showBook();
 

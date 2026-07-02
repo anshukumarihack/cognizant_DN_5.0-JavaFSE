@@ -5,5 +5,12 @@
         "${workspaceFolder}/Spring_core/exercise_2_dependency_injection/target/dependency/**/*.jar"
     ],
     "java.configuration.updateBuildPath": true,
-    "java.jdt.ls.java.home": "C:\\Users\\V\\.jdk\\jdk-25.0.2"
+    "java.jdt.ls.java.home": "C:\\Users\\V\\.jdk\\jdk-25.0.2",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Users\\V\\.jdk\\jdk-25.0.2",
+            "default": true
+        }
+    ]
 }
