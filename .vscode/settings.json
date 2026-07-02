@@ -1,3 +1,9 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.project.referencedLibraries": [
+        "${workspaceFolder}/Spring_core/exercise_2_dependency_injection/target/dependency/**/*.jar"
+    ],
+    "java.configuration.updateBuildPath": true,
+    "java.jdt.ls.java.home": "C:\\Users\\V\\.jdk\\jdk-25.0.2"
 }
