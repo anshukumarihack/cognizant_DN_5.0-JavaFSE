@@ -141,3 +141,10 @@ public class CountryNotFoundException extends RuntimeException {
   INFO 12216 --- [nio-8084-exec-4] c.c.springlearn.service.CountryService   : Start getCountry(String code) service method execution for code: xx
   ERROR 12216 --- [nio-8084-exec-4] c.c.springlearn.service.CountryService   : Country not found exception thrown for code: xx
   ```
+
+## ScreenShot
+
+---
+<img width="1775" height="517" alt="image" src="https://github.com/user-attachments/assets/4b70ec21-6ce6-4984-b17b-e392daac1f06" />
+
+---
