@@ -55,3 +55,10 @@ When the application runs, it generates the following console output:
 1. **Instantiation**: During `ClassPathXmlApplicationContext` initialization, Spring invokes the default constructor of the `Country` class (`Inside Country Constructor.`).
 2. **Property Injection**: Spring calls the setter methods sequentially to inject the configured values (`Inside setCode() ...` and `Inside setName() ...`).
 3. **Registry Lookup**: When `context.getBean()` is invoked, the logger shows that the fully populated bean is retrieved directly from the container registry without invoking constructor or setter methods again.
+
+## ScreenShot
+
+---
+<img width="963" height="537" alt="image" src="https://github.com/user-attachments/assets/16223b92-026d-4e0a-878b-d74103922634" />
+
+---
