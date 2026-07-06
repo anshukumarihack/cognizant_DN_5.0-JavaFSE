@@ -41,6 +41,7 @@
         <module>Spring REST/Hello World RESTful Web Service</module>
         <module>Spring REST/REST - Country Web Service</module>
         <module>Spring REST/REST - Get country based on country code</module>
+        <module>Spring REST/jwt hands on</module>
     </modules>
 
 </project>
