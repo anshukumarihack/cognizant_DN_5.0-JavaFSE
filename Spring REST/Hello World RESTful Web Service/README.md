@@ -75,3 +75,9 @@ Connection: keep-alive
    - Tells the client that the TCP socket connection should be kept open to receive further HTTP requests/responses, avoiding connection handshake overhead.
 6. **`Keep-Alive: timeout=60`**:
    - Tells the client that the server will keep the connection idle for a maximum of 60 seconds before closing it.
+  
+## ScreenShot
+---
+<img width="1395" height="320" alt="image" src="https://github.com/user-attachments/assets/10c6f379-643c-4e19-9f0e-383f423c0cf0" />
+
+---
