@@ -39,6 +39,7 @@
         <module>Spring REST/Spring Web Project</module>
         <module>Spring REST/Hands on 4(SPRING REST)</module>
         <module>Spring REST/Hello World RESTful Web Service</module>
+        <module>Spring REST/REST - Country Web Service</module>
     </modules>
 
 </project>
