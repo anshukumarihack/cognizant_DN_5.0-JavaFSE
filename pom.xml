@@ -36,6 +36,7 @@
         <module>tdd_using_junit/settingup_junit</module>
         <module>tdd_using_junit/slf4j_logging_example</module>
         <module>Spring_data/Hands on 4</module>
+        <module>Spring REST/Spring Web Project</module>
     </modules>
 
 </project>
