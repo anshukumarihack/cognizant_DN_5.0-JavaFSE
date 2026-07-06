@@ -171,3 +171,9 @@ INFO 3808 --- [nio-8090-exec-1] c.c.s.controller.AuthController          : Attem
 INFO 3808 --- [nio-8090-exec-1] c.c.s.controller.AuthController          : Authentication successful for user: user. Token generated.
 INFO 3808 --- [nio-8090-exec-1] c.c.s.controller.AuthController          : End authenticate() method execution successfully.
 ```
+
+## ScreenShot
+---
+<img width="1643" height="66" alt="image" src="https://github.com/user-attachments/assets/b4266279-52d2-484e-95a8-f456dc16f241" />
+
+---
