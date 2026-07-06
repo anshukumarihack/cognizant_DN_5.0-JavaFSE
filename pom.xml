@@ -35,6 +35,7 @@
         <module>tdd_using_junit/mockito_mocking_stubbing</module>
         <module>tdd_using_junit/settingup_junit</module>
         <module>tdd_using_junit/slf4j_logging_example</module>
+        <module>Spring_data/Hands on 4</module>
     </modules>
 
 </project>
