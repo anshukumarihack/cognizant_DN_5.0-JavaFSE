@@ -156,3 +156,9 @@ ID: 1, Name: Alice, Department: Engineering, Salary: 85000.0
 ID: 2, Name: Bob, Department: Marketing, Salary: 62000.0
 ==========================================
 ```
+## SCREENSHOTS
+---
+<img width="911" height="603" alt="image" src="https://github.com/user-attachments/assets/e7a9abe8-058c-40c1-9548-302f57aca732" />
+
+---
+
