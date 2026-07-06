@@ -80,3 +80,13 @@ Connection: keep-alive
    - Tells the client that the response data is sent in a series of chunks instead of one single block. This allows the server to start streaming the response immediately without calculating the final `Content-Length` beforehand.
 3. **`Date`**: The server generation timestamp.
 4. **`Connection: keep-alive`**: Keeps the underlying TCP socket open for subsequent requests.
+
+## ScreenShot
+
+---
+
+<img width="412" height="172" alt="image" src="https://github.com/user-attachments/assets/c2531e03-195e-4f56-85f4-2bb506104139" />
+
+<img width="1396" height="243" alt="image" src="https://github.com/user-attachments/assets/7617b80c-26f5-4863-9474-1fa9988bc85a" />
+
+---
