@@ -10,7 +10,7 @@ class Posts extends Component {
   }
 
   loadPosts() {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('/english_posts.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch posts from API');
