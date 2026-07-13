@@ -42,6 +42,8 @@
         <module>Spring REST/REST - Country Web Service</module>
         <module>Spring REST/REST - Get country based on country code</module>
         <module>Spring REST/jwt hands on</module>
+        <module>Microservices/account</module>
+        <module>Microservices/loan</module>
     </modules>
 
 </project>
