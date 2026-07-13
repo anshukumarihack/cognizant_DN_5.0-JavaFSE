@@ -18,10 +18,10 @@ public class CountryController {
     public Country getCountryIndia() {
         LOGGER.info("Start getCountryIndia() method execution...");
         
-        ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
-        Country country = context.getBean("country", Country.class);
-        
-        LOGGER.info("End getCountryIndia() method execution. Retrieved Country: {}", country);
-        return country;
+        try (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("country.xml")) {
+            Country country = context.getBean("country", Country.class);
+            LOGGER.info("End getCountryIndia() method execution. Retrieved Country: {}", country);
+            return country;
+        }
     }
 }

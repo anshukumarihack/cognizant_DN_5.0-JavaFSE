@@ -2,7 +2,6 @@ package com.cognizant.handson4;
 
 import jakarta.persistence.EntityManagerFactory;
 import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,14 +16,15 @@ import java.util.List;
 @SpringBootApplication
 public class App implements CommandLineRunner {
 
-    @Autowired
-    private EntityManagerFactory entityManagerFactory;
+    private final EntityManagerFactory entityManagerFactory;
+    private final EmployeeService employeeService;
+    private final EmployeeRepository employeeRepository;
 
-    @Autowired
-    private EmployeeService employeeService;
-
-    @Autowired
-    private EmployeeRepository employeeRepository;
+    public App(EntityManagerFactory entityManagerFactory, EmployeeService employeeService, EmployeeRepository employeeRepository) {
+        this.entityManagerFactory = entityManagerFactory;
+        this.employeeService = employeeService;
+        this.employeeRepository = employeeRepository;
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);

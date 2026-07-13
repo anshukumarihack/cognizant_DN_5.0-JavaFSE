@@ -17,19 +17,20 @@ public class CountryService {
     public Country getCountry(String code) {
         LOGGER.info("Start getCountry(String code) service method execution for code: {}", code);
         
-        ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
-        @SuppressWarnings("unchecked")
-        List<Country> countries = context.getBean("countryList", List.class);
-        
-        Country foundCountry = countries.stream()
-                .filter(country -> country.getCode().equalsIgnoreCase(code))
-                .findFirst()
-                .orElseThrow(() -> {
-                    LOGGER.error("Country not found exception thrown for code: {}", code);
-                    return new CountryNotFoundException("Country not found for code: " + code);
-                });
-        
-        LOGGER.info("End getCountry(String code) service method execution. Found: {}", foundCountry);
-        return foundCountry;
+        try (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("country.xml")) {
+            @SuppressWarnings("unchecked")
+            List<Country> countries = context.getBean("countryList", List.class);
+            
+            Country foundCountry = countries.stream()
+                    .filter(country -> country.getCode().equalsIgnoreCase(code))
+                    .findFirst()
+                    .orElseThrow(() -> {
+                        LOGGER.error("Country not found exception thrown for code: {}", code);
+                        return new CountryNotFoundException("Country not found for code: " + code);
+                    });
+            
+            LOGGER.info("End getCountry(String code) service method execution. Found: {}", foundCountry);
+            return foundCountry;
+        }
     }
 }

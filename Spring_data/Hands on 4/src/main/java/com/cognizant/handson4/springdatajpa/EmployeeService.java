@@ -1,6 +1,5 @@
 package com.cognizant.handson4.springdatajpa;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.cognizant.handson4.model.Employee;
@@ -8,11 +7,14 @@ import com.cognizant.handson4.model.Employee;
 @Service
 public class EmployeeService {
 
-    @Autowired
-    private EmployeeRepository employeeRepository;
+    private final EmployeeRepository employeeRepository;
+
+    public EmployeeService(EmployeeRepository employeeRepository) {
+        this.employeeRepository = employeeRepository;
+    }
 
     @Transactional
-    public void addEmployee(Employee employee) {
+    public void addEmployee(@org.springframework.lang.NonNull Employee employee) {
         employeeRepository.save(employee);
     }
 }

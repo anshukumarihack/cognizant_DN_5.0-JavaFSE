@@ -22,9 +22,9 @@ public class HibernateEmployeeDAO {
 
         try {
             tx = session.beginTransaction();
-            // In modern Hibernate, save() can return the generated ID or serializable ID
-            employeeID = (Integer) session.save(employee);
+            session.persist(employee);
             tx.commit();
+            employeeID = employee.getId();
         } catch (HibernateException e) {
             if (tx != null) {
                 tx.rollback();
