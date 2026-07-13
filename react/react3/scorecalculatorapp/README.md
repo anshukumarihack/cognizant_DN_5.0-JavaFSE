@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Student Score Calculator (scorecalculatorapp)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive, and visually stunning Student Score Calculator built using React. This project demonstrates the usage of component props, functional component calculations, and custom stylesheet integration.
 
-## Available Scripts
+## Task Details
 
-In the project directory, you can run:
+1. **Scaffold React Project**: Initialized in `react/react3/scorecalculatorapp`.
+2. **CalculateScore Component**:
+   - Accepts props: `Name`, `School`, `Total`, and `goal`.
+   - Computes the average score via: `Total / goal`.
+   - Renders the details inside a styled card.
+3. **Custom Stylesheet**: Styled using `src/Stylesheets/mystyle.css` with radial gradients, Outfit typography, and a card format.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Component Architecture
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **CalculateScore**: Located at `src/Components/CalculateScore.js`
+- **Stylesheet**: Located at `src/Stylesheets/mystyle.css`
+- **App**: Located at `src/App.js` (Invokes the component with props)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Guide to Execute the Application
 
-### `npm run build`
+### 1. Install Dependencies
+Navigate to the root of the project and install all required packages:
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Start the Development Server
+Run the application locally:
+```bash
+npm start
+```
+*(By default, this will launch on `http://localhost:3000`. If port 3000 is already in use, you can override it using `PORT=3002 npm start`).*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Visual Proof / Result Screenshot
 
-### `npm run eject`
+Below is the screenshot of the running application displaying the completed score calculator card:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Score Calculator Screenshot](score_calculator_screenshot.png)
