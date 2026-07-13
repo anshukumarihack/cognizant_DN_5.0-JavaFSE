@@ -14,7 +14,8 @@ public class EmployeeService {
     }
 
     @Transactional
-    public void addEmployee(@org.springframework.lang.NonNull Employee employee) {
+    @SuppressWarnings("null")
+    public void addEmployee(Employee employee) {
         employeeRepository.save(employee);
     }
 }
