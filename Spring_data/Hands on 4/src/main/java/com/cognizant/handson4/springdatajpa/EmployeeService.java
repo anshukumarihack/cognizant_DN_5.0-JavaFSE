@@ -14,7 +14,6 @@ public class EmployeeService {
     }
 
     @Transactional
-    @SuppressWarnings("null")
     public void addEmployee(Employee employee) {
         employeeRepository.save(employee);
     }
