@@ -35,4 +35,5 @@ npm start
 
 Below is the screenshot of the running application displaying the office spaces with conditional rent styling matching the expected layout:
 
-![Office Space Rentals](verification_screenshot.png)
+<img width="1272" height="991" alt="image" src="https://github.com/user-attachments/assets/67cd3a1b-f023-449b-8723-ea799ebd1a64" />
+
