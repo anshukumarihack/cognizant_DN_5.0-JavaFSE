@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #fafafa;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.App-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard-content {
+  text-align: left;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  color: #111111;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 0.5rem;
+}
+
+.cohorts-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #555555;
+}
+
+dd {
+  margin-left: 30px;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #222222;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
