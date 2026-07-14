@@ -48,9 +48,16 @@ npm start
 ### 1. View when Flag = True (ListofPlayers)
 Displays all 11 players mapped and the top performers list:
 
-![List of Players](initial_state.png)
+<img width="1231" height="1012" alt="image" src="https://github.com/user-attachments/assets/a4111026-ca52-4519-a419-bfbdcb1ac431" />
+
+---
+
+<img width="656" height="612" alt="image" src="https://github.com/user-attachments/assets/4e9c49ac-8c9f-49c5-882c-433676f182b4" />
+
+---
 
 ### 2. View when Flag = False (IndianPlayers)
 Displays destructured teams and merged T20 & Ranji lists:
 
-![Indian Players](toggled_state.png)
+<img width="671" height="856" alt="image" src="https://github.com/user-attachments/assets/36f2bc7f-f7de-4bda-a3f3-628bb6a8cb4d" />
+
