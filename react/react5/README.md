@@ -52,4 +52,5 @@ npm start
 
 Below is the screenshot of the running application displaying the cohorts list matching the expected result layout:
 
-![Cohorts Details Screenshot](cohorts_details_screenshot.png)
+<img width="1208" height="945" alt="image" src="https://github.com/user-attachments/assets/acf46b4e-ec28-497b-892b-5e0bee12cd51" />
+
