@@ -42,4 +42,5 @@ npm start
 
 Below is the screenshot of the running application showing all clicked events logged and currency conversion results:
 
-![Event Examples](verification_screenshot.png)
+<img width="1328" height="898" alt="image" src="https://github.com/user-attachments/assets/d415bb00-2c3d-4377-a955-83f99231dfa5" />
+
